@@ -31,7 +31,7 @@
   }).addTo(map);
 
   // Load your GeoJSON file from GitHub
-  fetch('https://raw.githubusercontent.com/jurgon2024/map/6e1566acb153fda65a3fac05f8bad4b6e013be19/All_Wards.geojson')
+  fetch('fetch('All_Wards.geojson')')
     .then(response => response.json())
     .then(data => {
       const layer = L.geoJSON(data, {
